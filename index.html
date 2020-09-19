@@ -8,15 +8,14 @@
 	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="image/favicon/favicon_4.ico" type="image/x-icon">
 	<link media="screen" onload='if(media!="all") media="all"' rel="stylesheet" href="css/style.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=cd5db98d-3ac6-47e1-b994-d3f77268c038&lang=ru_RU" type="text/javascript"></script>
 	<script src="js/main.js" defer></script>
 </head>
-
 <body>
 	<header class="header">
 		<div class="container">
 			<div class="header__row df">
 				<div class="header__logo-box df">
-					<a href="#" class="link"></a>
 					<div class="header__logo">Mini</div>
 				</div>
 				<nav class="header__menu">
@@ -44,12 +43,12 @@
 			</div>
 		</div>
 	</header>
-	<section class="bgi page">
+	<section class="bgi page df">
 		<div class="container">
 			<div class="page__content">
 				<div class="page__text-box">
-					<h2 class="page__subtitle_1">Best Creative Studio</h2>
-					<div class="page-slider">
+					<h2 class="page__subtitle_1" data-aos="fade-down"  data-aos-offset="0">Best Creative Studio</h2>
+					<div class="page-slider" data-aos="fade-down" data-aos-delay="100" data-aos-offset="0">
 						<div class="page-slider__column">
 							<h1 class="page-slider__title">Design</h1>
 						</div>
@@ -60,9 +59,9 @@
 							<h1 class="page-slider__title">WordPres</h1>
 						</div>
 					</div>
-					<h2 class="page__subtitle_2">We Make Great Ideas Happen</h2>
+					<h2 class="page__subtitle_2" data-aos="fade-down" data-aos-delay="200" data-aos-offset="0">We Make Great Ideas Happen</h2>
 				</div>
-				<div class="page__link-box">
+				<div class="page__link-box" data-aos="zoom-in-down" data-aos-delay="300" data-aos-offset="0">
 					<a class="page__link" href="#"><span>Learn More</span></a>
 				</div>
 				<div class="dots-container_1 df"></div>
@@ -72,10 +71,10 @@
 	<section class="about">
 		<div class="container">
 			<div class="title">
-				<div class="title__title">
+				<div class="title__title" data-aos="fade-right">
 					<h2>About</h2>
 				</div>
-				<div class="title__text">
+				<div class="title__text" data-aos="fade-left">
 					<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
 						elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
 						sit amet </p>
@@ -83,7 +82,7 @@
 			</div>
 			<div class="about__row_1 df">
 				<div class="about__column_1 df">
-					<div class="info">
+					<div class="info" data-aos="fade-up-right">
 						<div class="info__image-box">
 							<a class="link" href="#"></a>
 							<span class="icon-bulb"></span>
@@ -110,7 +109,7 @@
 					</div>
 				</div>
 				<div class="about__column_1 df">
-					<div class="about__add-image df">
+					<div class="about__add-image df" data-aos="fade-up-left">
 						<span class="icon-camera"></span>
 					</div>
 				</div>
@@ -118,7 +117,7 @@
 			<hr class="hr-content">
 			<div class="about__row_2 df">
 				<div class="about__column_2 df">
-					<div class="about__devices df">
+					<div class="about__devices df" data-aos="flip-right">
 						<div class="about__device">
 							<img src="image/about/iPhone.png" alt="iPhone">
 						</div>
@@ -128,7 +127,7 @@
 					</div>
 				</div>
 				<div class="about__column_2 df">
-					<div class="about__item">
+					<div class="about__item" data-aos="fade-left">
 						<div class="info">
 							<div class="info__image-box">
 								<a class="link" href="#"></a>
@@ -193,8 +192,9 @@
 		</div>
 	</section>
 	<section class="aside-section aside-section-1 df skew bgi">
+		<div class="aside-section__lay"></div>
 		<div class="container">
-			<div class="aside-section-1__content">
+			<div class="aside-section-1__content" data-aos="zoom-in">
 				<div class="aside-section-1__title">
 					<h2>Simplicity is about subtracting the obvious
 						and adding the meaningful</h2>
@@ -206,17 +206,17 @@
 	<section class="team">
 		<div class="container">
 			<div class="title">
-				<div class="title__title">
+				<div class="title__title" data-aos="fade-right">
 					<h2>Team</h2>
 				</div>
-				<div class="title__text">
+				<div class="title__text" data-aos="fade-left">
 					<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
 						elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
 						sit amet </p>
 				</div>
 			</div>
 			<div class="team__row">
-				<div class="team__column">
+				<div class="team__column" data-aos="fade-down">
 					<div class="team-user">
 						<div class="team-user__image">
 							<img src="image/icons/person.svg" alt="person">
@@ -257,7 +257,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="team__column">
+				<div class="team__column" data-aos="fade-down">
 					<div class="team-user">
 						<div class="team-user__image">
 							<img src="image/icons/person.svg" alt="person">
@@ -298,7 +298,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="team__column">
+				<div class="team__column" data-aos="fade-down">
 					<div class="team-user">
 						<div class="team-user__image">
 							<img src="image/icons/person.svg" alt="person">
@@ -339,7 +339,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="team__column">
+				<div class="team__column" data-aos="fade-down">
 					<div class="team-user">
 						<div class="team-user__image">
 							<img src="image/icons/person.svg" alt="person">
@@ -384,6 +384,7 @@
 		</div>
 	</section>
 	<section class="aside-section aside-section-2 df skew bgi">
+		<div class="aside-section__lay"></div>
 		<div class="container">
 			<div class="aside-section-2__row df">
 				<div class="aside-section-2__column">
@@ -392,7 +393,7 @@
 							<span class="icon-cup"></span>
 						</div>
 						<div class="total__title-box">
-							<h2 class="total__title">6K+</h2>
+							<h2 class="total__title">6242</h2>
 							<div class="total__subtitle">Coffees</div>
 						</div>
 					</div>
@@ -436,10 +437,10 @@
 	<section class="service">
 		<div class="container">
 			<div class="title">
-				<div class="title__title">
+				<div class="title__title" data-aos="fade-right">
 					<h2>Service</h2>
 				</div>
-				<div class="title__text">
+				<div class="title__text" data-aos="fade-left">
 					<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
 						elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
 						sit amet</p>
@@ -447,7 +448,7 @@
 			</div>
 			<div class="service__row_1 df">
 				<div class="service__column_1 df">
-					<div class="info service-info">
+					<div class="info service-info" data-aos="flip-up">
 						<div class="info__image-box">
 							<a class="link" href="#"></a>
 							<span class="icon-star"></span>
@@ -465,7 +466,7 @@
 					</div>
 				</div>
 				<div class="service__column_1 df">
-					<div class="info service-info">
+					<div class="info service-info" data-aos="flip-up">
 						<div class="info__image-box">
 							<a class="link" href="#"></a>
 							<span class="icon-lab"></span>
@@ -483,7 +484,7 @@
 					</div>
 				</div>
 				<div class="service__column_1 df">
-					<div class="info service-info">
+					<div class="info service-info" data-aos="flip-up">
 						<div class="info__image-box">
 							<a class="link" href="#"></a>
 							<span class="icon-world"></span>
@@ -504,7 +505,7 @@
 			<hr class="hr-content">
 			<div class="service__row_2 df">
 				<div class="service__column_2 df">
-					<div class="info info-packege">
+					<div class="info info-packege" data-aos="fade-right">
 						<div class="info__image-box">
 							<a class="link" href="#"></a>
 							<span class="icon-banknote"></span>
@@ -521,7 +522,7 @@
 					</div>
 				</div>
 				<div class="service__column_2 df">
-					<div class="service__row_3 df">
+					<div class="service__row_3 df"  data-aos="fade-left">
 						<div class="service__column_3 df">
 							<div class="subscription df">
 								<div class="subscription__title-box">
@@ -603,8 +604,9 @@
 		</div>
 	</section>
 	<section class="aside-section aside-section-3 df skew bgi">
+		<div class="aside-section__lay"></div>
 		<div class="container">
-			<div class="aside-section-3__content">
+			<div class="aside-section-3__content" data-aos="zoom-in">
 				<div class="aside-section-3__row">
 					<div class="aside-section-3__column df">
 						<div class="comment df">
@@ -657,10 +659,10 @@
 	<section class="portfolio">
 		<div class="container">
 			<div class="title">
-				<div class="title__title">
+				<div class="title__title" data-aos="fade-right">
 					<h2>Portfolio</h2>
 				</div>
-				<div class="title__text">
+				<div class="title__text" data-aos="fade-left">
 					<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet</p>
 				</div>
 			</div>
@@ -694,7 +696,7 @@
 				</div>
 			</div>
 			<hr class="hr-content">
-			<div class="category">
+			<div class="category" data-aos="zoom-in">
 				<div class="category__nav">
 					<ul class="category__list df">
 						<li class="category__category category__category_item active" data-filter="all">All Work</li>
@@ -876,8 +878,9 @@
 		</div>
 	</section>
 	<div class="aside-section aside-section-4 df skew bgi">
+		<div class="aside-section__lay"></div>
 		<div class="container">
-			<div class="aside-section-4__content">
+			<div class="aside-section-4__content" data-aos="zoom-in">
 				<div class="info aside-section-4__info">
 					<div class="info__image-box">
 						<a class="link" href="#"></a>
@@ -896,17 +899,17 @@
 	<section class="blog">
 		<div class="container">
 			<div class="title">
-				<div class="title__title">
+				<div class="title__title" data-aos="fade-right">
 					<h2>Blog</h2>
 				</div>
-				<div class="title__text">
+				<div class="title__text" data-aos="fade-left">
 					<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet</p>
 				</div>
 			</div>
 			<div class="blog__inner">
 				<div class="blog__row df">
 					<div class="blog__column df">
-						<div class="blog-item df">
+						<div class="blog-item df" data-aos="flip-up">
 							<div class="blog-item__image-box blog-item__image-box_1 bgi">
 								<a href="https://images.wallpaperscraft.ru/image/gory_vershiny_zakat_185380_2560x1080.jpg" class="link blank"></a>
 								<div class="blog-item__image-title">
@@ -933,7 +936,7 @@
 						</div>
 					</div>
 					<div class="blog__column df">
-						<div class="blog-item df">
+						<div class="blog-item df" data-aos="flip-up">
 							<div class="blog-item__image-box blog-item__image-box_2 bgi">
 								<a href="https://images.wallpaperscraft.ru/image/zakat_reka_gory_183840_1400x1050.jpg" class="link blank"></a>
 								<div class="blog-item__image-title">
@@ -960,7 +963,7 @@
 						</div>
 					</div>
 					<div class="blog__column df">
-						<div class="blog-item df">
+						<div class="blog-item df" data-aos="flip-up">
 							<div class="blog-item__image-box blog-item__image-box_3 bgi">
 								<a href="https://images.wallpaperscraft.ru/image/naushniki_ruka_muzyka_165211_2048x1152.jpg" class="link blank"></a>
 								<div class="blog-item__image-title">
@@ -987,7 +990,7 @@
 						</div>
 					</div>
 					<div class="blog__column df">
-						<div class="blog-item df">
+						<div class="blog-item df" data-aos="flip-up">
 							<div class="blog-item__image-box blog-item__image-box_4 bgi">
 								<a href="https://images.wallpaperscraft.ru/image/gora_ozero_tuman_154504_2048x1152.jpg" class="link blank"></a>
 								<div class="blog-item__image-title">
@@ -1018,33 +1021,34 @@
 		</div>
 	</section>
 	<section class="aside-section aside-section-5 df skew bgi">
+		<div class="aside-section__lay"></div>
 		<div class="container">
 			<div class="aside-section-5__content">
-				<div class="aside-section-5__title">
+				<div class="aside-section-5__title" data-aos="fade-up">
 					<h2>Our Clients</h2>
 				</div>
 				<div class="aside-section-5__clients">
 					<div class="aside-section-5__row df">
 						<div class="aside-section-5__client df">
-							<div class="aside-section-5__client-inner">
+							<div class="aside-section-5__client-inner" data-aos="fade-down">
 								<a href="#" class="link"></a>
 								<img src="image/clients/01.png" alt="echonote">
 							</div>
 						</div>
 						<div class="aside-section-5__client df">
-							<div class="aside-section-5__client-inner">
+							<div class="aside-section-5__client-inner" data-aos="fade-down">
 								<a href="#" class="link"></a>
 								<img src="image/clients/02.png" alt="color">
 							</div>
 						</div>
 						<div class="aside-section-5__client df">
-							<div class="aside-section-5__client-inner">
+							<div class="aside-section-5__client-inner" data-aos="fade-down">
 								<a href="#" class="link"></a>
 								<img src="image/clients/03.png" alt="wiesinger music">
 							</div>
 						</div>
 						<div class="aside-section-5__client df">
-							<div class="aside-section-5__client-inner">
+							<div class="aside-section-5__client-inner" data-aos="fade-down">
 								<a href="#" class="link"></a>
 								<img src="image/clients/04.png" alt="continens">
 							</div>
@@ -1057,16 +1061,16 @@
 	<section class="contact">
 		<div class="container">
 			<div class="title">
-				<div class="title__title">
+				<div class="title__title" data-aos="fade-right">
 					<h2>Contact</h2>
 				</div>
-				<div class="title__text">
+				<div class="title__text" data-aos="fade-left">
 					<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet</p>
 				</div>
 			</div>
 			<div class="contact__row df">
 				<div class="contact__column contact__column_1">
-					<div class="contact__form">
+					<div class="contact__form" data-aos="fade-right">
 						<div class="contact__title">
 							<h3>Drop Us A Message</h3>
 						</div>
@@ -1093,7 +1097,7 @@
 					</div>
 				</div>
 				<div class="contact__column contact__column_2">
-					<div class="contact__info">
+					<div class="contact__info" data-aos="fade-left">
 						<div class="contact__title">
 							<h3>Contact Info</h3>
 						</div>
@@ -1128,7 +1132,38 @@
 			</div>
 		</div>
 	</section>
-	<div style="width: 100%;height: 1px;margin-top: 150vh;"></div>
+	<section class="map skew" id="map"></section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__row df">
+				<div class="footer__copyright" data-aos="fade-right" data-aos-offset="0">
+					© MINI 2014, All Right Reserves  <spam>|</spam>  Designed By bigpsfan & Metrothemes
+				</div>
+				<div class="footer__networks df" data-aos="fade-left" data-aos-offset="0">
+					<div class="footer__network">
+						<a class="footer__link" href="#"><span class="icon-twitter"></span></a>
+					</div>
+					<div class="footer__network">
+						<a class="footer__link" href="#"><span class="icon-facebook"></span></a>
+					</div>
+					<div class="footer__network">
+						<a class="footer__link" href="#"><span class="icon-linkedin"></span></a>
+					</div>
+					<div class="footer__network">
+						<a class="footer__link" href="#"><span class="icon-dribbble"></span></a>
+					</div>
+					<div class="footer__network">
+						<a class="footer__link" href="#"><span class="icon-pinterest-p"></span></a>
+					</div>
+					<div class="footer__network">
+						<a class="footer__link" href="#"><span class="icon-google"></span></a>
+					</div>
+					<div class="footer__network">
+						<a class="footer__link" href="#"><span class="icon-feed"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
-
 </html>
